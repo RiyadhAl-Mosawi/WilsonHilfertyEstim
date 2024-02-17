@@ -1,0 +1,8 @@
+useDynLib(EstimWHD, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+importFrom(pracma, incgam)
+importFrom(coda, HPDinterval)
+importFrom(coda, as.mcmc)
+import(roptim)
+import(progress)
+exportPattern("^[[:alpha:]]+")

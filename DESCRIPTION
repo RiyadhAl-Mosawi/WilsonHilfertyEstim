@@ -1,0 +1,12 @@
+Package: EstimWHD
+Type: Package
+Title: Estimation of Wilson-Hilferty Distribution Under Progressively First Failure  Type-II Censoring Samples
+Version: 1.0
+Date: 2023-11-13
+Author: Riyadh R. Al-Mosawi
+Maintainer: Riyadh R. Al-Mosawi <riyadhrm@gmail.com>
+Description: This package is used to estimate the parameters for the paper "Classical and Bayesian inference of $C_{pc}$ for  Wilson-Hilferty Distribution Under Progressively First Failure  Type-II Censoring Samples"
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.10)
+Imports: pracma, RcppArmadillo, RcppEigen, RcppProgress, coda
+LinkingTo: Rcpp, RcppArmadillo, RcppNumerical, roptim, RcppEigen, RcppProgress
