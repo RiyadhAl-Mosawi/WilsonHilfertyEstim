@@ -4,7 +4,7 @@
   
   R=censoring scheme
   
-  m=no. of failures
+  m=no. of failure times
   
   n=sample size
   
